@@ -43,20 +43,61 @@ summary(tokyo$rooms)
 tokyo$roomsclass <- fancycut(x = tokyo$rooms,
                              intervals = c("[0,105.0)", "[105.0,156.0)","[156.0,238.0)","[238.0, 3560.0]"),
                              buckets = c("under 105.0", "105.0-156.0", "156.0-238.0","more than 238.0"),
-                             unmatched.bucket = "範囲外")
+                             unmatched.bucket = "except")
 library(ggplot2)
 ggplot()+
-  geom_point(data=tokyo, aes(x=log(lvalue), y=index)) + 
-  geom_vline(xintercept=mean(log(tokyo$lvalue)),
+  geom_point(data=tokyo, aes(x=log(L01_006), y=index)) + 
+  geom_vline(xintercept=mean(log(tokyo$L01_006)),
              linetype=2,colour = "gray")+
   geom_hline(yintercept=mean(tokyo$index),
              linetype=2,colour = "gray")+
-  stat_density2d(aes(x =log(lvalue), y = index, fill = ..level.., alpha = ..level..),
+  stat_density2d(aes(x =log(L01_006), y = index, fill = ..level.., alpha = ..level..),
                  bins = 10, geom = "polygon",data=tokyo) +
   scale_fill_gradient(low = "black", high = "red") +
   facet_wrap(~ roomsclass) +
   theme_classic()
 
+###########################
+#osaka#####################
+###########################
+summary(osaka$o_year)
+osaka$yearclass <- fancycut(x = osaka$o_year,
+                             intervals = c("[0,2003)", "[2003,2013)", "[2013, 2017]"),
+                             buckets = c("before 2003", "2003-2013", "afrer 2017"),
+                             unmatched.bucket = "except")
+
+ggplot()+
+  geom_point(data=osaka, aes(x=log(lvalue), y=index)) + 
+  geom_vline(xintercept=mean(log(osaka$lvalue)),
+             linetype=2,colour = "gray")+
+  geom_hline(yintercept=mean(osaka$index),
+             linetype=2,colour = "gray")+
+  stat_density2d(aes(x =log(lvalue), y = index, fill = ..level.., alpha = ..level..),
+                 bins = 8, geom = "polygon",data=osaka) +
+  scale_fill_gradient(low = "black", high = "red") +
+  facet_wrap(~ yearclass) +
+  theme_classic()
+
+###########################
+#tokyo#####################
+###########################
+summary(tokyo$o_year)
+tokyo$yearclass <- fancycut(x = tokyo$o_year,
+                            intervals = c("[0,2003)", "[2003,2013)", "[2013, 2017]"),
+                            buckets = c("before 2003", "2003-2013", "afrer 2017"),
+                            unmatched.bucket = "except")
+
+ggplot()+
+  geom_point(data=tokyo, aes(x=log(L01_006), y=index)) + 
+  geom_vline(xintercept=mean(log(tokyo$L01_006)),
+             linetype=2,colour = "gray")+
+  geom_hline(yintercept=mean(tokyo$index),
+             linetype=2,colour = "gray")+
+  stat_density2d(aes(x =log(L01_006), y = index, fill = ..level.., alpha = ..level..),
+                 bins = 8, geom = "polygon",data=tokyo) +
+  scale_fill_gradient(low = "black", high = "red") +
+  facet_wrap(~ yearclass) +
+  theme_classic()
 
 capital_Label
 μ <- mean(osaka$rooms)
@@ -64,6 +105,6 @@ capital_Label
 μ+σ
 
 summary(osaka$index)
-
+hist(tokyo$o_year)
 summary(tokyo$index)
 summary(tokyo$rooms)
