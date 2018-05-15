@@ -1,18 +1,16 @@
 
 #retrive chain hotel data
-osaka <- read.csv("https://raw.githubusercontent.com/kmbsweb/hotel-location/master/osakach.csv")
-tokyo <- read.csv("https://raw.githubusercontent.com/kmbsweb/hotel-location/master/tokyoch.csv")
+osaka <- read.csv("https://raw.githubusercontent.com/kmbsweb/hotel-location/master/chosaka.csv")
+tokyo <- read.csv("https://raw.githubusercontent.com/kmbsweb/hotel-location/master/chtokyo.csv")
 
 #and then...
-library(Jtransit)
-library(dplyr)
+#create index of transit level
+osaka$index <- (log(osaka$kanku_dura)+log(osaka$itami_dura))
 
-time    <- tokyo$narita_dur
-or <- tokyo$hotel_name
-dataF <- data.frame(origin=or,time=time)
 
-# result
-DD <- covert_m(dataF,2)
-tokyo$narita_dur <- DD$Time.sum
 
-write.csv(tokyo,"chtokyo.csv")
+
+
+summary(osaka$index)
+summary(osaka$rooms)
+summary(tokyo$rooms)
