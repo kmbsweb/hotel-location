@@ -1,4 +1,76 @@
+---
+title: "Locational analysis of chain hotels in Japanese urban city"
+author:
+- name: Keigo Matsuo
+  affiliation:  
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    code_folding: hide
+    md_extensions: -ascii_identifiers
+---
+<style type="text/css">
 
+body{ /* Normal  */
+      font-size: 18px;
+  }
+td {  /* Table  */
+  font-size: 12px;
+}
+h1.title {
+  margin-top : 50px ;
+  margin-bottom : 70px ;
+  font-size: 28px;
+  color: DarkRed;
+}
+
+h1 { /* Header 1 */
+  font-size: 18px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 18px;
+  color: DarkBlue;
+}
+h3 { /* Header 3 */
+  font-size: 18px;
+  color: DarkBlue;
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+----------------------------------------------------------------------    
+    
+    
+    
+    
+    
+#1.Introduction
+The study of hotel location facilitates the understanding of urban tourism space and structure because hotels are the basic facilities that support urban tourism(Rogerson,2012a)[^1] and their locations influence tourists' movement within a city(Shoval et al.,2011)[^2].
+
+#2.Literature review
+
+#3.Data and Method
+
+#4.Analysis
+##4.1 rooms
+```{r include=FALSE,echo=FALSE}
+##packages
+library(fancycut)
+library(ggplot2)
+library(gridExtra)
+library(ggrepel)
+library(ggthemes)
+library(xtable) 
+library(dplyr)
+```
+
+```{r message=FALSE, warning=FALSE, error=FALSE,fig.width=7, fig.height=6,fig.align='center'}
 #retrive chain hotel data
 osaka <- read.csv("https://raw.githubusercontent.com/kmbsweb/hotel-location/master/chosaka.csv")
 tokyo <- read.csv("https://raw.githubusercontent.com/kmbsweb/hotel-location/master/chtokyo.csv")
@@ -8,21 +80,14 @@ tokyo <- read.csv("https://raw.githubusercontent.com/kmbsweb/hotel-location/mast
 osaka$index <- (log(osaka$kanku_dura)+log(osaka$itami_dura))
 tokyo$index <- (log(tokyo$narita_dur)+log(tokyo$haneda_dur))
 
-
-###########################
-#osaka#####################
-###########################
-
-library(fancycut)
-#区分け内容を指定:intervalsオプション;[:含める,(:含めない　←ポイント
-#ラベルを指定:bucketsオプション
-#区分け内容外のラベルを指定:unmatched.bucketオプション
-summary(osaka$rooms)
 osaka$roomsclass <- fancycut(x = osaka$rooms,
-                             intervals = c("[0,128.5)", "[128.5,202.5)",  "[202.5,318.8)","[318.8, 972.0]"),
-                             buckets = c("under 128.5", "128.5-202.5", "202.5-318.8","more than 318.8"),
+                             intervals = c("[0,128.5)", "[128.5,202.5)",
+                                           "[202.5,318.8)","[318.8, 972.0]"),
+                             buckets = c("under 128.5", "128.5-202.5",
+                                         "202.5-318.8","more than 318.8"),
                              unmatched.bucket = "範囲外")
-library(ggplot2)
+
+#plot
 ggplot()+
   geom_point(data=osaka, aes(x=log(lvalue), y=index)) + 
   geom_vline(xintercept=mean(log(osaka$lvalue)),
@@ -33,12 +98,11 @@ ggplot()+
                  bins = 10, geom = "polygon",data=osaka) +
   scale_fill_gradient(low = "black", high = "red") +
   facet_wrap(~ roomsclass) +
+  labs(title="difference of rooms in Osaka", x="ln(land value)", y="ln(accessibility index)") +
   theme_classic()
+```
 
-###########################
-#Tokyo#####################
-###########################
-
+```{r message=FALSE, warning=FALSE, error=FALSE,fig.width=7, fig.height=6,fig.align='center'}
 summary(tokyo$rooms)
 tokyo$roomsclass <- fancycut(x = tokyo$rooms,
                              intervals = c("[0,105.0)", "[105.0,156.0)","[156.0,238.0)","[238.0, 3560.0]"),
@@ -55,11 +119,12 @@ ggplot()+
                  bins = 10, geom = "polygon",data=tokyo) +
   scale_fill_gradient(low = "black", high = "red") +
   facet_wrap(~ roomsclass) +
+  labs(title="difference of rooms in Tokyo", x="ln(land value)", y="ln(accessibility index)") +
   theme_classic()
+```
 
-###########################
-#osaka#####################
-###########################
+##4.2 open year
+```{r message=FALSE, warning=FALSE, error=FALSE,fig.width=7, fig.height=4.5,fig.align='center'}
 summary(osaka$o_year)
 osaka$yearclass <- fancycut(x = osaka$o_year,
                              intervals = c("[0,2003)", "[2003,2013)", "[2013, 2017]"),
@@ -76,11 +141,11 @@ ggplot()+
                  bins = 8, geom = "polygon",data=osaka) +
   scale_fill_gradient(low = "black", high = "red") +
   facet_wrap(~ yearclass) +
+  labs(title="difference of open year in Osaka", x="ln(land value)", y="ln(accessibility index)") +
   theme_classic()
+```
 
-###########################
-#tokyo#####################
-###########################
+```{r message=FALSE, warning=FALSE, error=FALSE,fig.width=7, fig.height=4.5,fig.align='center'}
 summary(tokyo$o_year)
 tokyo$yearclass <- fancycut(x = tokyo$o_year,
                             intervals = c("[0,2003)", "[2003,2013)", "[2013, 2017]"),
@@ -97,9 +162,12 @@ ggplot()+
                  bins = 8, geom = "polygon",data=tokyo) +
   scale_fill_gradient(low = "black", high = "red") +
   facet_wrap(~ yearclass) +
+  labs(title="difference of open year in Tokyo", x="ln(land value)", y="ln(accessibility index)") +
   theme_classic()
+```
 
-
+##4.3 experienced
+```{r message=FALSE, warning=FALSE, error=FALSE,fig.width=6, fig.height=4,fig.align='center'}
 #retrive experiemced data
 osakaE <- read.csv("https://raw.githubusercontent.com/kmbsweb/hotel-location/master/osaka_expand.csv")
 tokyoE <- read.csv("https://raw.githubusercontent.com/kmbsweb/hotel-location/master/tokyo_expand.csv")
@@ -129,8 +197,11 @@ ggplot()+
                  bins = 8, geom = "polygon",data=osaka) +
   scale_fill_gradient(low = "black", high = "red") +
   facet_wrap(~ exclass) +
+  labs(title="difference of expereiced in Osaka", x="ln(land value)", y="ln(accessibility index)") +
   theme_classic()
+```
 
+```{r message=FALSE, warning=FALSE, error=FALSE,fig.width=6, fig.height=4,fig.align='center'}
 ###########################
 #tokyo#####################
 ###########################
@@ -144,9 +215,36 @@ ggplot()+
                  bins = 8, geom = "polygon",data=tokyo) +
   scale_fill_gradient(low = "black", high = "red") +
   facet_wrap(~ exclass) +
+  labs(title="difference of expereiced in Tokyo", x="ln(land value)", y="ln(accessibility index)") +
   theme_classic()
+```
 
 
+##4.4 table
+```{r message=FALSE, warning=FALSE, error=FALSE}
+library(knitr)
+library(kableExtra)
+dt <-data.frame(variables =c(rep("rooms", 4),rep("open year", 2)),classification =c("too many","many","little","few","before 2013","after 2013"), I=c("","","","","",""),II=c("","","","","",""), III=c("","","","","",""),IV =c("","","◎","","",""))
+# HTML table
+kable(dt, format = "html", caption = "Evaluate Table", booktabs = T, align = "c") %>%
+  kable_styling(full_width = T)  %>%
+  add_header_above(c(" ", " ","Osaka" = 4)) %>%
+  collapse_rows(columns = 1)
+```
 
+```{r message=FALSE, warning=FALSE, error=FALSE}
+dt <-data.frame(variables =c(rep("rooms", 4),rep("open year", 2)),classification =c("too many","many","little","few","before 2013","after 2013"), I=c("","","","","",""),II=c("","","","","",""), III=c("","","","","",""),IV =c("","","◎","","",""))
+# HTML table
+kable(dt, format = "html", caption = "Evaluate Table", booktabs = T, align = "c") %>%
+  kable_styling(full_width = T)  %>%
+  add_header_above(c(" ", " ","Tokyo" = 4)) %>%
+  collapse_rows(columns = 1)
+```
 
+#5.Discussion
 
+#6.Conclusion
+
+# Reference
+[^1]: Rogrerson,J.M.,2012a.The changing location of hotels in South Africa's coastal cities,1990-2010.Urban Forum23(1),73-91.
+[^2]: Shoval, N., McKercher, B., Ng, E., Birenboim, A., 2011. Hotel location and tourist activity in cities. Annals of Tourism Research 38 (4), 1594–1612.
