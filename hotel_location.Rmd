@@ -57,7 +57,7 @@ The study of hotel location facilitates the understanding of urban tourism space
 
 #3.Data and Method
 
-```{r message=FALSE, warning=FALSE, error=FALSE,fig.width=6, fig.height=5,fig.align='center'}
+```{r message=FALSE, warning=FALSE, error=FALSE,fig.width=6, fig.height=5, fig.align='center'}
 #retrive chain hotel data
 osaka <- read.csv("https://raw.githubusercontent.com/kmbsweb/hotel-location/master/chosaka.csv")
 tokyo <- read.csv("https://raw.githubusercontent.com/kmbsweb/hotel-location/master/chtokyo.csv")
