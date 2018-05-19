@@ -5,7 +5,10 @@ tokyo <- read.csv("https://raw.githubusercontent.com/kmbsweb/hotel-location/mast
 
 #and then...
 #create index of transit level
-osaka$index <- (log(osaka$kanku_dura)+log(osaka$itami_dura))
+osaka <- mutate(osaka, minimum = if_else(kanku_dura > itami_dura,paste(itami_dura), paste(kanku_dura), ""))
+tokyo <- mutate(tokyo, minimum = if_else(narita_dur > haneda_dur,paste(haneda_dur), paste(narita_dur), ""))
+
+osaka$index <- (log(as.numeric(osaka$minimum)))
 tokyo$index <- (log(tokyo$narita_dur)+log(tokyo$haneda_dur))
 
 
@@ -145,7 +148,5 @@ ggplot()+
   scale_fill_gradient(low = "black", high = "red") +
   facet_wrap(~ exclass) +
   theme_classic()
-
-
 
 

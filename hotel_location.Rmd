@@ -53,6 +53,7 @@ pre { /* Code block - determines code spacing between lines */
 #1.Introduction
 The study of hotel location facilitates the understanding of urban tourism space and structure because hotels are the basic facilities that support urban tourism(Rogerson,2012a)[^1] and their locations influence tourists' movement within a city(Shoval et al.,2011)[^2].
 
+ This paper attempt to investigate how chain hotels choose thier location, especially focus on chain hotel chara 
 #2.Literature review
 
 #3.Data and Method
