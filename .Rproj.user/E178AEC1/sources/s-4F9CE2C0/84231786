@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1527645381654.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "84231786",
+    "lastKnownWriteTime" : 1527122332,
+    "last_content_update" : 1527122332,
+    "path" : "C:/Users/mkeig/Desktop/hotel-location/processing2.R",
+    "project_path" : "processing2.R",
+    "properties" : {
+        "cursorPosition" : "33,54",
+        "scrollLine" : "8",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
