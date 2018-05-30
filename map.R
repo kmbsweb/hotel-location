@@ -74,13 +74,9 @@ C <- ggplot() +
   geom_point(aes(x=139.779839,y=35.549393),color="red",  size = 1.5)+
   geom_point(aes(x=140.39285,y=35.771987), color="red",  size = 1.5)+
   coord_sf(ylim=c(35.50,35.9), xlim=c(138.948130, 140.051728 ),datum = NA)+
-  theme_bw() +
-  xlab("") +
-  ylab("") +
-  geom_rect(aes(xmin = 139.65,xmax = 139.88,
-                ymin = 35.5,ymax = 35.77),
-            alpha = 0, colour = "red",
-            size = 1, linetype = 1) 
+  theme_bw() + xlab("") + ylab("") +
+  geom_rect(aes(xmin = 139.65,xmax = 139.88,ymin = 35.5,ymax = 35.77),
+            alpha = 0, colour = "red",size = 1, linetype = 1) 
 
 D <- ggplot() +
   geom_sf(data=pref_13, fill = 'white') +
