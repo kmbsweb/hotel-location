@@ -1,0 +1,1011 @@
+<Layout units="mm" name="レイアウト 1" worldFileMap="{68478529-12a0-4f85-aa9a-783bc629911b}" printResolution="300">
+ <Snapper snapToItems="1" tolerance="5" snapToGrid="0" snapToGuides="1"/>
+ <Grid resolution="10" offsetX="0" resUnits="mm" offsetUnits="mm" offsetY="0"/>
+ <PageCollection>
+  <symbol type="fill" alpha="1" name="" clip_to_extent="1">
+   <layer pass="0" locked="0" enabled="1" class="SimpleFill">
+    <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+    <prop v="255,255,255,255" k="color"/>
+    <prop v="miter" k="joinstyle"/>
+    <prop v="0,0" k="offset"/>
+    <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+    <prop v="MM" k="offset_unit"/>
+    <prop v="35,35,35,255" k="outline_color"/>
+    <prop v="no" k="outline_style"/>
+    <prop v="0.26" k="outline_width"/>
+    <prop v="MM" k="outline_width_unit"/>
+    <prop v="solid" k="style"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option type="QString" name="name" value=""/>
+      <Option name="properties"/>
+      <Option type="QString" name="type" value="collection"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+  <LayoutItem outlineWidthM="0.3,mm" size="297,210,mm" frame="false" zValue="0" positionLock="false" background="true" type="65638" visibility="1" referencePoint="0" groupUuid="" templateUuid="{15c11bf2-d5a1-4876-82dc-c253b4e1bab8}" blendMode="0" itemRotation="0" position="0,0,mm" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{15c11bf2-d5a1-4876-82dc-c253b4e1bab8}" opacity="1" positionOnPage="0,0,mm">
+   <FrameColor red="0" alpha="255" green="0" blue="0"/>
+   <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option type="QString" name="name" value=""/>
+      <Option name="properties"/>
+      <Option type="QString" name="type" value="collection"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties/>
+   </LayoutObject>
+  </LayoutItem>
+  <GuideCollection visible="1"/>
+ </PageCollection>
+ <LayoutItem outlineWidthM="0.3,mm" size="3.26608,1.92533,mm" marginY="0" frame="false" zValue="266" positionLock="false" background="true" type="65641" visibility="1" valign="128" referencePoint="0" groupUuid="" templateUuid="{5ec36802-175f-44c0-947a-4a577f31937f}" blendMode="0" itemRotation="0" position="45.9299,148.911,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{5ec36802-175f-44c0-947a-4a577f31937f}" opacity="1" positionOnPage="45.9299,148.911,mm" htmlState="0" marginX="0" labelText="蒲田">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="3.26608,1.92533,mm" marginY="0" frame="false" zValue="234" positionLock="false" background="true" type="65641" visibility="1" valign="128" referencePoint="0" groupUuid="" templateUuid="{56a897b3-7d6e-456a-be04-67d7e43f80cd}" blendMode="0" itemRotation="0" position="48.3319,124.843,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{56a897b3-7d6e-456a-be04-67d7e43f80cd}" opacity="1" positionOnPage="48.3319,124.843,mm" htmlState="0" marginX="0" labelText="品川">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="3.26608,1.92533,mm" marginY="0" frame="false" zValue="203" positionLock="false" background="true" type="65641" visibility="1" valign="128" referencePoint="0" groupUuid="" templateUuid="{af02ed19-b8b2-45e0-a3e3-e76716aad310}" blendMode="0" itemRotation="0" position="52.6148,111.16,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{af02ed19-b8b2-45e0-a3e3-e76716aad310}" opacity="1" positionOnPage="52.6148,111.16,mm" htmlState="0" marginX="0" labelText="上野">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="3.26608,1.92533,mm" marginY="0" frame="false" zValue="173" positionLock="false" background="true" type="65641" visibility="1" valign="128" referencePoint="0" groupUuid="" templateUuid="{98354a22-bbb3-4617-ba45-eb64787538b7}" blendMode="0" itemRotation="0" position="141.439,110.197,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{98354a22-bbb3-4617-ba45-eb64787538b7}" opacity="1" positionOnPage="141.439,110.197,mm" htmlState="0" marginX="0" labelText="上野">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="4.27614,1.92533,mm" marginY="0" frame="false" zValue="144" positionLock="false" background="true" type="65641" visibility="1" valign="128" referencePoint="0" groupUuid="" templateUuid="{5fb2d0f2-3e5a-415a-a5bb-6229242606ae}" blendMode="0" itemRotation="0" position="134.66,117.645,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{5fb2d0f2-3e5a-415a-a5bb-6229242606ae}" opacity="1" positionOnPage="134.66,117.645,mm" htmlState="0" marginX="0" labelText="東京駅">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="5.00649,1.92533,mm" marginY="0" frame="false" zValue="143" positionLock="false" background="true" type="65641" visibility="1" valign="128" referencePoint="0" groupUuid="" templateUuid="{58d92e27-0cac-4f51-8492-25ca409fdc17}" blendMode="0" itemRotation="0" position="136.433,44.2253,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{58d92e27-0cac-4f51-8492-25ca409fdc17}" opacity="1" positionOnPage="136.433,44.2253,mm" htmlState="0" marginX="0" labelText="霞が関">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="3.64987,1.92533,mm" marginY="0" frame="false" zValue="116" positionLock="false" background="true" type="65641" visibility="1" valign="128" referencePoint="0" groupUuid="" templateUuid="{c59413d4-fd5f-4eda-bc16-8e2f0b3f17ee}" blendMode="0" itemRotation="0" position="122.556,20.999,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{c59413d4-fd5f-4eda-bc16-8e2f0b3f17ee}" opacity="1" positionOnPage="122.556,20.999,mm" htmlState="0" marginX="0" labelText="池袋">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="114.059,6.11869,mm" marginY="0" frame="false" zValue="104" positionLock="false" background="false" type="65641" visibility="1" valign="32" referencePoint="0" groupUuid="" templateUuid="{5d5122ee-2d61-44f4-8d3f-a507aba17fa7}" blendMode="0" itemRotation="0" position="36.0653,166.006,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{5d5122ee-2d61-44f4-8d3f-a507aba17fa7}" opacity="1" positionOnPage="36.0653,166.006,mm" htmlState="0" marginX="0" labelText="a) 全体 N=500.　　b)2006年以前　N=201. 　c)2007年～2012年　N=135.　　d)2013年以降  N=164.&#xa;郊外部は対象外とし、カーネル密度推定の検索半径は800ｍととした。">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="ＭＳ Ｐゴシック,7,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="3.64987,1.92533,mm" marginY="0" frame="false" zValue="90" positionLock="false" background="true" type="65641" visibility="1" valign="128" referencePoint="0" groupUuid="" templateUuid="{d1bd2daf-ca06-4209-96e2-e0875b4507d9}" blendMode="0" itemRotation="0" position="115.972,35.0069,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{d1bd2daf-ca06-4209-96e2-e0875b4507d9}" opacity="1" positionOnPage="115.972,35.0069,mm" htmlState="0" marginX="0" labelText="新宿">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="3.64987,1.92533,mm" marginY="0" frame="false" zValue="89" positionLock="false" background="true" type="65641" visibility="1" valign="128" referencePoint="0" groupUuid="" templateUuid="{1e6cfb0b-2aee-4235-8e01-cff8cbf8cb8e}" blendMode="0" itemRotation="0" position="45.5462,70.6342,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{1e6cfb0b-2aee-4235-8e01-cff8cbf8cb8e}" opacity="1" positionOnPage="45.5462,70.6342,mm" htmlState="0" marginX="0" labelText="蒲田">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="72.673,3.40143,mm" marginY="0" frame="false" zValue="71" positionLock="false" background="false" type="65641" visibility="1" valign="32" referencePoint="0" groupUuid="" templateUuid="{49dd602c-68d5-4f4a-ab01-9a4d3ba7070e}" blendMode="0" itemRotation="0" position="99.99,89.555,mm" halign="8" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{49dd602c-68d5-4f4a-ab01-9a4d3ba7070e}" opacity="1" positionOnPage="99.99,89.555,mm" htmlState="0" marginX="0" labelText="d) 2013年以降の密度分布">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="UD デジタル 教科書体 N-B,7,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="3.64987,1.92533,mm" marginY="0" frame="false" zValue="65" positionLock="false" background="true" type="65641" visibility="1" valign="128" referencePoint="0" groupUuid="" templateUuid="{6069aba8-0342-4acd-89be-397a7da8d8bc}" blendMode="0" itemRotation="0" position="34.2404,32.5176,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{6069aba8-0342-4acd-89be-397a7da8d8bc}" opacity="1" positionOnPage="34.2404,32.5176,mm" htmlState="0" marginX="0" labelText="新宿">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="3.86522,1.81766,mm" marginY="0" frame="false" zValue="64" positionLock="false" background="true" type="65641" visibility="1" valign="128" referencePoint="0" groupUuid="" templateUuid="{6e6c64b5-2dea-4f31-994f-110f5ef12c02}" blendMode="0" itemRotation="0" position="43.5059,38.8576,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{6e6c64b5-2dea-4f31-994f-110f5ef12c02}" opacity="1" positionOnPage="43.5059,38.8576,mm" htmlState="0" marginX="0" labelText="赤坂">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="72.673,3.29759,mm" marginY="0" frame="false" zValue="52" positionLock="false" background="false" type="65641" visibility="1" valign="32" referencePoint="0" groupUuid="" templateUuid="{f5a9d91a-8007-409b-8d93-803b7c630df1}" blendMode="0" itemRotation="0" position="15.6665,89.555,mm" halign="8" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{f5a9d91a-8007-409b-8d93-803b7c630df1}" opacity="1" positionOnPage="15.6665,89.555,mm" htmlState="0" marginX="0" labelText="c) 2007年～2012年の密度分布">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="UD デジタル 教科書体 N-B,7,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="3.64987,1.92533,mm" marginY="0" frame="false" zValue="42" positionLock="false" background="true" type="65641" visibility="1" valign="128" referencePoint="0" groupUuid="" templateUuid="{a4accca8-df7c-4632-972d-2f205e643689}" blendMode="0" itemRotation="0" position="49.965,36.9322,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{a4accca8-df7c-4632-972d-2f205e643689}" opacity="1" positionOnPage="49.965,36.9322,mm" htmlState="0" marginX="0" labelText="皇居">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="72.673,3.29759,mm" marginY="0" frame="false" zValue="34" positionLock="false" background="false" type="65641" visibility="1" valign="32" referencePoint="0" groupUuid="" templateUuid="{3537d771-bf31-4294-b266-163aacbe5cd2}" blendMode="0" itemRotation="0" position="99.1134,10.0954,mm" halign="8" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{3537d771-bf31-4294-b266-163aacbe5cd2}" opacity="1" positionOnPage="99.1134,10.0954,mm" htmlState="0" marginX="0" labelText="b) 2006年以前の密度分布">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="UD デジタル 教科書体 N-B,7,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem templateUuid="{f57c5804-5765-41bf-97fe-da7fd0b9c26c}" wrapChar="" size="10.267,20.7958,mm" opacity="1" symbolWidth="3" wmsLegendHeight="25" columnCount="1" background="true" symbolHeight="2" rasterBorderWidth="0" frameJoinStyle="miter" map_uuid="{75cf8b06-8e3d-4e8e-af45-e7fc101da073}" positionLock="false" titleAlignment="1" outlineWidthM="0.3,mm" zValue="22" wmsLegendWidth="50" rasterBorder="0" columnSpace="2" resizeToContents="0" id="" visibility="1" type="65642" rasterBorderColor="0,0,0,255" excludeFromExports="0" equalColumnWidth="0" referencePoint="0" frame="false" boxSpace="1" groupUuid="" lineSpacing="1" blendMode="0" splitLayer="0" uuid="{f57c5804-5765-41bf-97fe-da7fd0b9c26c}" title="凡例" fontColor="#000000" itemRotation="0" legendFilterByAtlas="0" position="162.396,142.456,mm" positionOnPage="162.396,142.456,mm">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="94" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <styles>
+   <style name="title" marginBottom="0.5">
+    <styleFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+   <style name="group" marginTop="3">
+    <styleFont description="MS UI Gothic,6,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+   <style name="subgroup" marginTop="3">
+    <styleFont description="MS UI Gothic,6,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+   <style name="symbol">
+    <styleFont description="MS UI Gothic,9,-1,5,50,0,0,0,0,0" style=""/>
+   </style>
+   <style name="symbolLabel" marginLeft="1">
+    <styleFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+  </styles>
+  <layer-tree-group>
+   <customproperties/>
+   <layer-tree-layer providerKey="gdal" id="T_a13_buff800_b14db35e_1a8f_4b6c_92e3_950effcee2cd" name="T_a13_buff800" expanded="1" source="./T_a13_buff800.tif" checked="Qt::Checked">
+    <customproperties>
+     <property key="legend/title-style" value="hidden"/>
+    </customproperties>
+   </layer-tree-layer>
+   <layer-tree-layer providerKey="gdal" id="T_0712_buff800_9f60387a_e826_48fe_b58c_7ac0a9f2bb37" name="T_0712_buff800" expanded="0" source="./T_0712_buff800.tif" checked="Qt::Unchecked">
+    <customproperties/>
+   </layer-tree-layer>
+   <layer-tree-layer providerKey="gdal" id="T_b06_buff800_905db31a_1eef_4d04_b07b_9466b04c77b7" name="T_b06_buff800" expanded="0" source="./T_b06_buff800.tif" checked="Qt::Unchecked">
+    <customproperties/>
+   </layer-tree-layer>
+   <layer-tree-layer providerKey="gdal" id="T_all_buff800_481513f9_7c72_49e2_9ddf_d0b51f323525" name="T_all_buff800" expanded="0" source="./T_all_buff800.tif" checked="Qt::Unchecked">
+    <customproperties/>
+   </layer-tree-layer>
+   <layer-tree-layer providerKey="wms" id="Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354" name="Basic-copy" expanded="1" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=cji07mh6c37bm2rmun27z8hez&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://api.mapbox.com/styles/v1/snipe28235/cji07mh6c37bm2rmun27z8hez/wmts?access_token%3Dpk.eyJ1Ijoic25pcGUyODIzNSIsImEiOiJjajNkbjJsYmkwMDM3MnFtbzVwYjNpcDFjIn0._IColBB6u66HXkJoiLrkfw" checked="Qt::Checked">
+    <customproperties/>
+   </layer-tree-layer>
+   <custom-order enabled="0">
+    <item>Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354</item>
+    <item>T_all_buff800_481513f9_7c72_49e2_9ddf_d0b51f323525</item>
+    <item>T_b06_buff800_905db31a_1eef_4d04_b07b_9466b04c77b7</item>
+    <item>T_0712_buff800_9f60387a_e826_48fe_b58c_7ac0a9f2bb37</item>
+    <item>T_a13_buff800_b14db35e_1a8f_4b6c_92e3_950effcee2cd</item>
+   </custom-order>
+  </layer-tree-group>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="6.4494,2.35603,mm" marginY="0" frame="false" zValue="21" positionLock="false" background="true" type="65641" visibility="1" valign="128" referencePoint="0" groupUuid="" templateUuid="{1fedf3cc-3479-48bf-a45f-a3c5215007a5}" blendMode="0" itemRotation="0" position="66.0188,79.4652,mm" halign="4" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{1fedf3cc-3479-48bf-a45f-a3c5215007a5}" opacity="1" positionOnPage="66.0188,79.4652,mm" htmlState="0" marginX="0" labelText="羽田空港">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem templateUuid="{ba68049e-d5c5-49c2-a767-ac48bcb08a59}" size="24.1778,11.6,mm" opacity="1" outlineWidth="0.3" unitType="km" background="true" numUnitsPerSegment="2" lineCapStyle="square" mapUuid="{75cf8b06-8e3d-4e8e-af45-e7fc101da073}" frameJoinStyle="miter" segmentSizeMode="0" numSegments="4" positionLock="false" unitLabel="km" outlineWidthM="0.3,mm" zValue="21" boxContentSpace="0" maxBarWidth="150" id="" visibility="1" type="65646" labelBarSpace="1" numSegmentsLeft="0" excludeFromExports="0" referencePoint="0" alignment="0" frame="false" segmentMillimeters="5.01944" groupUuid="" height="1" numMapUnitsPerScaleBarUnit="1" blendMode="0" minBarWidth="50" uuid="{ba68049e-d5c5-49c2-a767-ac48bcb08a59}" style="Line Ticks Up" lineJoinStyle="miter" itemRotation="0" position="100.203,158.644,mm" positionOnPage="100.203,158.644,mm">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="222" green="252" blue="253"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <scaleBarFont description="MS UI Gothic,5,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <fillColor red="0" alpha="255" green="0" blue="0"/>
+  <fillColor2 red="255" alpha="255" green="255" blue="255"/>
+  <strokeColor red="96" alpha="255" green="102" blue="108"/>
+  <textColor red="0" alpha="255" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="4.23545,5.0567,mm" pictureWidth="3.90454" frame="false" zValue="20" file="arrows/NorthArrow_10.svg" pictureHeight="5.0567" svgFillColor="255,255,255,255" positionLock="false" background="true" resizeMode="0" mapUuid="" type="65640" visibility="1" referencePoint="4" anchorPoint="0" svgBorderColor="0,0,0,255" northOffset="0" groupUuid="" templateUuid="{a670ed9d-e4e5-47ae-babb-ccd969aa3d0c}" blendMode="0" itemRotation="0" position="103.411,96.8567,mm" northMode="0" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{a670ed9d-e4e5-47ae-babb-ccd969aa3d0c}" opacity="1" pictureRotation="0" positionOnPage="103.411,96.8567,mm" svgBorderWidth="0.2">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="0" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem templateUuid="{25edd904-b0bc-4541-8362-be74afc6993a}" wrapChar="" size="10.267,20.7958,mm" opacity="1" symbolWidth="3" wmsLegendHeight="25" columnCount="1" background="true" symbolHeight="2" rasterBorderWidth="0" frameJoinStyle="miter" map_uuid="{75cf8b06-8e3d-4e8e-af45-e7fc101da073}" positionLock="false" titleAlignment="1" outlineWidthM="0.3,mm" zValue="18" wmsLegendWidth="50" rasterBorder="0" columnSpace="2" resizeToContents="0" id="" visibility="1" type="65642" rasterBorderColor="0,0,0,255" excludeFromExports="0" equalColumnWidth="0" referencePoint="0" frame="false" boxSpace="1" groupUuid="" lineSpacing="1" blendMode="0" splitLayer="0" uuid="{25edd904-b0bc-4541-8362-be74afc6993a}" title="凡例" fontColor="#000000" itemRotation="0" legendFilterByAtlas="0" position="77.8595,142.456,mm" positionOnPage="77.8595,142.456,mm">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="94" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <styles>
+   <style name="title" marginBottom="0.5">
+    <styleFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+   <style name="group" marginTop="3">
+    <styleFont description="MS UI Gothic,6,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+   <style name="subgroup" marginTop="3">
+    <styleFont description="MS UI Gothic,6,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+   <style name="symbol">
+    <styleFont description="MS UI Gothic,9,-1,5,50,0,0,0,0,0" style=""/>
+   </style>
+   <style name="symbolLabel" marginLeft="1">
+    <styleFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+  </styles>
+  <layer-tree-group>
+   <customproperties/>
+   <layer-tree-layer providerKey="gdal" id="T_0712_buff800_9f60387a_e826_48fe_b58c_7ac0a9f2bb37" name="T_0712_buff800" expanded="1" source="./T_0712_buff800.tif" checked="Qt::Checked">
+    <customproperties>
+     <property key="legend/title-style" value="hidden"/>
+    </customproperties>
+   </layer-tree-layer>
+   <layer-tree-layer providerKey="gdal" id="T_b06_buff800_905db31a_1eef_4d04_b07b_9466b04c77b7" name="T_b06_buff800" expanded="0" source="./T_b06_buff800.tif" checked="Qt::Unchecked">
+    <customproperties/>
+   </layer-tree-layer>
+   <layer-tree-layer providerKey="gdal" id="T_all_buff800_481513f9_7c72_49e2_9ddf_d0b51f323525" name="T_all_buff800" expanded="0" source="./T_all_buff800.tif" checked="Qt::Checked">
+    <customproperties/>
+   </layer-tree-layer>
+   <layer-tree-layer providerKey="wms" id="Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354" name="Basic-copy" expanded="1" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=cji07mh6c37bm2rmun27z8hez&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://api.mapbox.com/styles/v1/snipe28235/cji07mh6c37bm2rmun27z8hez/wmts?access_token%3Dpk.eyJ1Ijoic25pcGUyODIzNSIsImEiOiJjajNkbjJsYmkwMDM3MnFtbzVwYjNpcDFjIn0._IColBB6u66HXkJoiLrkfw" checked="Qt::Checked">
+    <customproperties/>
+   </layer-tree-layer>
+   <custom-order enabled="0">
+    <item>Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354</item>
+    <item>T_all_buff800_481513f9_7c72_49e2_9ddf_d0b51f323525</item>
+    <item>T_b06_buff800_905db31a_1eef_4d04_b07b_9466b04c77b7</item>
+    <item>T_0712_buff800_9f60387a_e826_48fe_b58c_7ac0a9f2bb37</item>
+   </custom-order>
+  </layer-tree-group>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="72.673,3.29759,mm" marginY="0" frame="false" zValue="17" positionLock="false" background="false" type="65641" visibility="1" valign="32" referencePoint="0" groupUuid="" templateUuid="{463b5976-a2f3-459d-88e6-90d3f83f6f0b}" blendMode="0" itemRotation="0" position="15.4534,10.0954,mm" halign="8" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{463b5976-a2f3-459d-88e6-90d3f83f6f0b}" opacity="1" positionOnPage="15.4534,10.0954,mm" htmlState="0" marginX="0" labelText="a) チェーンホテル全体の密度分布">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <LabelFont description="UD デジタル 教科書体 N-B,7,-1,5,75,0,0,0,0,0,Bold" style="Bold"/>
+  <FontColor red="0" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="72.4595,70.399,mm" followPreset="false" frame="false" zValue="17" positionLock="false" background="true" type="65639" visibility="1" referencePoint="0" groupUuid="" templateUuid="{68478529-12a0-4f85-aa9a-783bc629911b}" followPresetName="" keepLayerSet="true" blendMode="0" itemRotation="0" position="100.203,92.8526,mm" id="" excludeFromExports="0" mapRotation="0" frameJoinStyle="miter" uuid="{68478529-12a0-4f85-aa9a-783bc629911b}" opacity="1" positionOnPage="100.203,92.8526,mm" drawCanvasItems="false">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymax="-25320.66441811930417316" xmin="-21565.35124951582838548" xmax="7303.33236409293749603" ymin="-53368.43759721786773298"/>
+  <LayerSet>
+   <Layer name="T_a13_buff800" provider="gdal" source="C:/Users/mkeig/Desktop/hotel-location/QGIS/T_a13_buff800.tif">T_a13_buff800_b14db35e_1a8f_4b6c_92e3_950effcee2cd</Layer>
+   <Layer name="Basic-copy" provider="wms" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=cji07mh6c37bm2rmun27z8hez&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://api.mapbox.com/styles/v1/snipe28235/cji07mh6c37bm2rmun27z8hez/wmts?access_token%3Dpk.eyJ1Ijoic25pcGUyODIzNSIsImEiOiJjajNkbjJsYmkwMDM3MnFtbzVwYjNpcDFjIn0._IColBB6u66HXkJoiLrkfw">Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354</Layer>
+  </LayerSet>
+  <LayerStyles>
+   <LayerStyle name="Basic-copy" provider="wms" layerid="Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=cji07mh6c37bm2rmun27z8hez&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://api.mapbox.com/styles/v1/snipe28235/cji07mh6c37bm2rmun27z8hez/wmts?access_token%3Dpk.eyJ1Ijoic25pcGUyODIzNSIsImEiOiJjajNkbjJsYmkwMDM3MnFtbzVwYjNpcDFjIn0._IColBB6u66HXkJoiLrkfw">
+    <qgis maxScale="0" minScale="1e+8" version="3.0.2-Girona" hasScaleBasedVisibilityFlag="0">
+     <pipe>
+      <rasterrenderer alphaBand="-1" type="singlebandcolordata" opacity="1" band="1">
+       <rasterTransparency/>
+       <minMaxOrigin>
+        <limits>None</limits>
+        <extent>WholeRaster</extent>
+        <statAccuracy>Estimated</statAccuracy>
+        <cumulativeCutLower>0.02</cumulativeCutLower>
+        <cumulativeCutUpper>0.98</cumulativeCutUpper>
+        <stdDevFactor>2</stdDevFactor>
+       </minMaxOrigin>
+      </rasterrenderer>
+      <brightnesscontrast brightness="0" contrast="0"/>
+      <huesaturation colorizeGreen="128" colorizeOn="0" colorizeStrength="100" colorizeRed="255" grayscaleMode="0" colorizeBlue="128" saturation="0"/>
+      <rasterresampler maxOversampling="2"/>
+     </pipe>
+     <blendMode>0</blendMode>
+    </qgis>
+   </LayerStyle>
+   <LayerStyle name="T_a13_buff800" provider="gdal" layerid="T_a13_buff800_b14db35e_1a8f_4b6c_92e3_950effcee2cd" source="C:/Users/mkeig/Desktop/hotel-location/QGIS/T_a13_buff800.tif">
+    <qgis maxScale="0" minScale="1e+8" version="3.0.2-Girona" hasScaleBasedVisibilityFlag="0">
+     <pipe>
+      <rasterrenderer alphaBand="-1" classificationMax="2.36506e-5" type="singlebandpseudocolor" classificationMin="0" opacity="1" band="1">
+       <rasterTransparency/>
+       <minMaxOrigin>
+        <limits>None</limits>
+        <extent>WholeRaster</extent>
+        <statAccuracy>Estimated</statAccuracy>
+        <cumulativeCutLower>0.02</cumulativeCutLower>
+        <cumulativeCutUpper>0.98</cumulativeCutUpper>
+        <stdDevFactor>2</stdDevFactor>
+       </minMaxOrigin>
+       <rastershader>
+        <colorrampshader colorRampType="INTERPOLATED" classificationMode="1" clip="0">
+         <colorramp type="gradient" name="[source]">
+          <prop v="255,245,240,255" k="color1"/>
+          <prop v="103,0,13,255" k="color2"/>
+          <prop v="0" k="discrete"/>
+          <prop v="gradient" k="rampType"/>
+          <prop v="0.13;254,224,210,255:0.26;252,187,161,255:0.39;252,146,114,255:0.52;251,106,74,255:0.65;239,59,44,255:0.78;203,24,29,255:0.9;165,15,21,255" k="stops"/>
+         </colorramp>
+         <item alpha="2" label="0" color="#fff5f0" value="0"/>
+         <item alpha="255" label="3.07e-6" color="#fee0d2" value="3.074578e-6"/>
+         <item alpha="255" label="6.15e-6" color="#fcbba1" value="6.149156e-6"/>
+         <item alpha="255" label="9.22e-6" color="#fc9272" value="9.223734e-6"/>
+         <item alpha="255" label="1.23e-5" color="#fb6a4a" value="1.2298312e-5"/>
+         <item alpha="255" label="1.54e-5" color="#ef3b2c" value="1.537289e-5"/>
+         <item alpha="255" label="1.84e-5" color="#cb181d" value="1.8447468e-5"/>
+         <item alpha="255" label="2.13e-5" color="#a50f15" value="2.128554e-5"/>
+         <item alpha="255" label="2.37e-5" color="#67000d" value="2.36506e-5"/>
+        </colorrampshader>
+       </rastershader>
+      </rasterrenderer>
+      <brightnesscontrast brightness="0" contrast="0"/>
+      <huesaturation colorizeGreen="128" colorizeOn="0" colorizeStrength="100" colorizeRed="255" grayscaleMode="0" colorizeBlue="128" saturation="0"/>
+      <rasterresampler maxOversampling="2"/>
+     </pipe>
+     <blendMode>0</blendMode>
+    </qgis>
+   </LayerStyle>
+  </LayerStyles>
+  <AtlasMap scalingMode="2" margin="0.10000000000000001" atlasDriven="0"/>
+ </LayoutItem>
+ <LayoutItem templateUuid="{ab330622-0020-4a78-9315-2cba5b033539}" size="24.1778,11.6,mm" opacity="1" outlineWidth="0.3" unitType="km" background="true" numUnitsPerSegment="2" lineCapStyle="square" mapUuid="{75cf8b06-8e3d-4e8e-af45-e7fc101da073}" frameJoinStyle="miter" segmentSizeMode="0" numSegments="4" positionLock="false" unitLabel="km" outlineWidthM="0.3,mm" zValue="17" boxContentSpace="0" maxBarWidth="150" id="" visibility="1" type="65646" labelBarSpace="1" numSegmentsLeft="0" excludeFromExports="0" referencePoint="0" alignment="0" frame="false" segmentMillimeters="5.01944" groupUuid="" height="1" numMapUnitsPerScaleBarUnit="1" blendMode="0" minBarWidth="50" uuid="{ab330622-0020-4a78-9315-2cba5b033539}" style="Line Ticks Up" lineJoinStyle="miter" itemRotation="0" position="15.6665,158.644,mm" positionOnPage="15.6665,158.644,mm">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="222" green="252" blue="253"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <scaleBarFont description="MS UI Gothic,5,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <fillColor red="0" alpha="255" green="0" blue="0"/>
+  <fillColor2 red="255" alpha="255" green="255" blue="255"/>
+  <strokeColor red="96" alpha="255" green="102" blue="108"/>
+  <textColor red="0" alpha="255" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="4.23545,5.0567,mm" pictureWidth="3.90454" frame="false" zValue="16" file="arrows/NorthArrow_10.svg" pictureHeight="5.0567" svgFillColor="255,255,255,255" positionLock="false" background="true" resizeMode="0" mapUuid="" type="65640" visibility="1" referencePoint="4" anchorPoint="0" svgBorderColor="0,0,0,255" northOffset="0" groupUuid="" templateUuid="{0356fa23-af1f-4e02-91f3-8473bc1c0a6f}" blendMode="0" itemRotation="0" position="18.8745,96.8567,mm" northMode="0" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{0356fa23-af1f-4e02-91f3-8473bc1c0a6f}" opacity="1" pictureRotation="0" positionOnPage="18.8745,96.8567,mm" svgBorderWidth="0.2">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="0" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="72.4595,70.399,mm" followPreset="false" frame="false" zValue="13" positionLock="false" background="true" type="65639" visibility="1" referencePoint="0" groupUuid="" templateUuid="{09f13365-0ced-460f-b726-c7379a4d59f0}" followPresetName="" keepLayerSet="true" blendMode="0" itemRotation="0" position="15.6665,92.8526,mm" id="" excludeFromExports="0" mapRotation="0" frameJoinStyle="miter" uuid="{09f13365-0ced-460f-b726-c7379a4d59f0}" opacity="1" positionOnPage="15.6665,92.8526,mm" drawCanvasItems="true">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymax="-25320.66441811930417316" xmin="-21565.35124951582838548" xmax="7303.33236409293749603" ymin="-53368.43759721786773298"/>
+  <LayerSet>
+   <Layer name="T_0712_buff800" provider="gdal" source="C:/Users/mkeig/Desktop/hotel-location/QGIS/T_0712_buff800.tif">T_0712_buff800_9f60387a_e826_48fe_b58c_7ac0a9f2bb37</Layer>
+   <Layer name="Basic-copy" provider="wms" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=cji07mh6c37bm2rmun27z8hez&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://api.mapbox.com/styles/v1/snipe28235/cji07mh6c37bm2rmun27z8hez/wmts?access_token%3Dpk.eyJ1Ijoic25pcGUyODIzNSIsImEiOiJjajNkbjJsYmkwMDM3MnFtbzVwYjNpcDFjIn0._IColBB6u66HXkJoiLrkfw">Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354</Layer>
+  </LayerSet>
+  <LayerStyles>
+   <LayerStyle name="Basic-copy" provider="wms" layerid="Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=cji07mh6c37bm2rmun27z8hez&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://api.mapbox.com/styles/v1/snipe28235/cji07mh6c37bm2rmun27z8hez/wmts?access_token%3Dpk.eyJ1Ijoic25pcGUyODIzNSIsImEiOiJjajNkbjJsYmkwMDM3MnFtbzVwYjNpcDFjIn0._IColBB6u66HXkJoiLrkfw">
+    <qgis maxScale="0" minScale="1e+8" version="3.0.2-Girona" hasScaleBasedVisibilityFlag="0">
+     <pipe>
+      <rasterrenderer alphaBand="-1" type="singlebandcolordata" opacity="1" band="1">
+       <rasterTransparency/>
+       <minMaxOrigin>
+        <limits>None</limits>
+        <extent>WholeRaster</extent>
+        <statAccuracy>Estimated</statAccuracy>
+        <cumulativeCutLower>0.02</cumulativeCutLower>
+        <cumulativeCutUpper>0.98</cumulativeCutUpper>
+        <stdDevFactor>2</stdDevFactor>
+       </minMaxOrigin>
+      </rasterrenderer>
+      <brightnesscontrast brightness="0" contrast="0"/>
+      <huesaturation colorizeGreen="128" colorizeOn="0" colorizeStrength="100" colorizeRed="255" grayscaleMode="0" colorizeBlue="128" saturation="0"/>
+      <rasterresampler maxOversampling="2"/>
+     </pipe>
+     <blendMode>0</blendMode>
+    </qgis>
+   </LayerStyle>
+   <LayerStyle name="T_0712_buff800" provider="gdal" layerid="T_0712_buff800_9f60387a_e826_48fe_b58c_7ac0a9f2bb37" source="C:/Users/mkeig/Desktop/hotel-location/QGIS/T_0712_buff800.tif">
+    <qgis maxScale="0" minScale="1e+8" version="3.0.2-Girona" hasScaleBasedVisibilityFlag="0">
+     <pipe>
+      <rasterrenderer alphaBand="-1" classificationMax="1.69233e-5" type="singlebandpseudocolor" classificationMin="0" opacity="1" band="1">
+       <rasterTransparency/>
+       <minMaxOrigin>
+        <limits>None</limits>
+        <extent>WholeRaster</extent>
+        <statAccuracy>Estimated</statAccuracy>
+        <cumulativeCutLower>0.02</cumulativeCutLower>
+        <cumulativeCutUpper>0.98</cumulativeCutUpper>
+        <stdDevFactor>2</stdDevFactor>
+       </minMaxOrigin>
+       <rastershader>
+        <colorrampshader colorRampType="INTERPOLATED" classificationMode="1" clip="0">
+         <colorramp type="gradient" name="[source]">
+          <prop v="255,245,240,255" k="color1"/>
+          <prop v="103,0,13,255" k="color2"/>
+          <prop v="0" k="discrete"/>
+          <prop v="gradient" k="rampType"/>
+          <prop v="0.13;254,224,210,255:0.26;252,187,161,255:0.39;252,146,114,255:0.52;251,106,74,255:0.65;239,59,44,255:0.78;203,24,29,255:0.9;165,15,21,255" k="stops"/>
+         </colorramp>
+         <item alpha="3" label="0" color="#fff5f0" value="0"/>
+         <item alpha="255" label="2.2e-6" color="#fee0d2" value="2.200029e-6"/>
+         <item alpha="255" label="4.4e-6" color="#fcbba1" value="4.400058e-6"/>
+         <item alpha="255" label="6.6e-6" color="#fc9272" value="6.600087e-6"/>
+         <item alpha="255" label="8.8e-6" color="#fb6a4a" value="8.800116e-6"/>
+         <item alpha="255" label="1.1e-5" color="#ef3b2c" value="1.1000145e-5"/>
+         <item alpha="255" label="1.32e-5" color="#cb181d" value="1.3200174e-5"/>
+         <item alpha="255" label="1.52e-5" color="#a50f15" value="1.523097e-5"/>
+         <item alpha="255" label="1.69e-5" color="#67000d" value="1.69233e-5"/>
+        </colorrampshader>
+       </rastershader>
+      </rasterrenderer>
+      <brightnesscontrast brightness="0" contrast="0"/>
+      <huesaturation colorizeGreen="128" colorizeOn="0" colorizeStrength="100" colorizeRed="255" grayscaleMode="0" colorizeBlue="128" saturation="0"/>
+      <rasterresampler maxOversampling="2"/>
+     </pipe>
+     <blendMode>0</blendMode>
+    </qgis>
+   </LayerStyle>
+  </LayerStyles>
+  <AtlasMap scalingMode="2" margin="0.10000000000000001" atlasDriven="0"/>
+ </LayoutItem>
+ <LayoutItem templateUuid="{88187886-c2ea-46b5-a802-1a89790ed31e}" wrapChar="" size="10.267,20.7958,mm" opacity="1" symbolWidth="3" wmsLegendHeight="25" columnCount="1" background="true" symbolHeight="2" rasterBorderWidth="0" frameJoinStyle="miter" map_uuid="{75cf8b06-8e3d-4e8e-af45-e7fc101da073}" positionLock="false" titleAlignment="1" outlineWidthM="0.3,mm" zValue="10" wmsLegendWidth="50" rasterBorder="0" columnSpace="2" resizeToContents="0" id="" visibility="1" type="65642" rasterBorderColor="0,0,0,255" excludeFromExports="0" equalColumnWidth="0" referencePoint="0" frame="false" boxSpace="1" groupUuid="" lineSpacing="1" blendMode="0" splitLayer="0" uuid="{88187886-c2ea-46b5-a802-1a89790ed31e}" title="凡例" fontColor="#000000" itemRotation="0" legendFilterByAtlas="0" position="161.306,62.9962,mm" positionOnPage="161.306,62.9962,mm">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="94" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <styles>
+   <style name="title" marginBottom="0.5">
+    <styleFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+   <style name="group" marginTop="3">
+    <styleFont description="MS UI Gothic,6,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+   <style name="subgroup" marginTop="3">
+    <styleFont description="MS UI Gothic,6,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+   <style name="symbol">
+    <styleFont description="MS UI Gothic,9,-1,5,50,0,0,0,0,0" style=""/>
+   </style>
+   <style name="symbolLabel" marginLeft="1">
+    <styleFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+  </styles>
+  <layer-tree-group>
+   <customproperties/>
+   <layer-tree-layer providerKey="gdal" id="T_b06_buff800_905db31a_1eef_4d04_b07b_9466b04c77b7" name="T_b06_buff800" expanded="1" source="./T_b06_buff800.tif" checked="Qt::Checked">
+    <customproperties>
+     <property key="legend/title-style" value="hidden"/>
+    </customproperties>
+   </layer-tree-layer>
+   <layer-tree-layer providerKey="gdal" id="T_all_buff800_481513f9_7c72_49e2_9ddf_d0b51f323525" name="T_all_buff800" expanded="0" source="./T_all_buff800.tif" checked="Qt::Checked">
+    <customproperties/>
+   </layer-tree-layer>
+   <layer-tree-layer providerKey="wms" id="Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354" name="Basic-copy" expanded="1" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=cji07mh6c37bm2rmun27z8hez&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://api.mapbox.com/styles/v1/snipe28235/cji07mh6c37bm2rmun27z8hez/wmts?access_token%3Dpk.eyJ1Ijoic25pcGUyODIzNSIsImEiOiJjajNkbjJsYmkwMDM3MnFtbzVwYjNpcDFjIn0._IColBB6u66HXkJoiLrkfw" checked="Qt::Checked">
+    <customproperties/>
+   </layer-tree-layer>
+   <custom-order enabled="0">
+    <item>Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354</item>
+    <item>T_all_buff800_481513f9_7c72_49e2_9ddf_d0b51f323525</item>
+    <item>T_b06_buff800_905db31a_1eef_4d04_b07b_9466b04c77b7</item>
+   </custom-order>
+  </layer-tree-group>
+ </LayoutItem>
+ <LayoutItem templateUuid="{39c50ec4-5c39-4d74-a306-1e922c005918}" size="24.1778,11.6,mm" opacity="1" outlineWidth="0.3" unitType="km" background="true" numUnitsPerSegment="2" lineCapStyle="square" mapUuid="{75cf8b06-8e3d-4e8e-af45-e7fc101da073}" frameJoinStyle="miter" segmentSizeMode="0" numSegments="4" positionLock="false" unitLabel="km" outlineWidthM="0.3,mm" zValue="9" boxContentSpace="0" maxBarWidth="150" id="" visibility="1" type="65646" labelBarSpace="1" numSegmentsLeft="0" excludeFromExports="0" referencePoint="0" alignment="0" frame="false" segmentMillimeters="5.01944" groupUuid="" height="1" numMapUnitsPerScaleBarUnit="1" blendMode="0" minBarWidth="50" uuid="{39c50ec4-5c39-4d74-a306-1e922c005918}" style="Line Ticks Up" lineJoinStyle="miter" itemRotation="0" position="99.1134,79.1842,mm" positionOnPage="99.1134,79.1842,mm">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="222" green="252" blue="253"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <scaleBarFont description="MS UI Gothic,5,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <fillColor red="0" alpha="255" green="0" blue="0"/>
+  <fillColor2 red="255" alpha="255" green="255" blue="255"/>
+  <strokeColor red="96" alpha="255" green="102" blue="108"/>
+  <textColor red="0" alpha="255" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="4.23545,5.0567,mm" pictureWidth="3.90454" frame="false" zValue="8" file="arrows/NorthArrow_10.svg" pictureHeight="5.0567" svgFillColor="255,255,255,255" positionLock="false" background="true" resizeMode="0" mapUuid="" type="65640" visibility="1" referencePoint="4" anchorPoint="0" svgBorderColor="0,0,0,255" northOffset="0" groupUuid="" templateUuid="{9b7ecc4a-c6c2-43e7-86ff-8ab0498dee4c}" blendMode="0" itemRotation="0" position="102.321,17.3971,mm" northMode="0" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{9b7ecc4a-c6c2-43e7-86ff-8ab0498dee4c}" opacity="1" pictureRotation="0" positionOnPage="102.321,17.3971,mm" svgBorderWidth="0.2">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="0" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="72.4595,70.399,mm" followPreset="false" frame="false" zValue="5" positionLock="false" background="true" type="65639" visibility="1" referencePoint="0" groupUuid="" templateUuid="{a7bdd9d5-ce5f-46b5-afa3-db083e4626ba}" followPresetName="" keepLayerSet="true" blendMode="0" itemRotation="0" position="99.1134,13.393,mm" id="" excludeFromExports="0" mapRotation="0" frameJoinStyle="miter" uuid="{a7bdd9d5-ce5f-46b5-afa3-db083e4626ba}" opacity="1" positionOnPage="99.1134,13.393,mm" drawCanvasItems="true">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymax="-25320.66441811930417316" xmin="-21565.35124951582838548" xmax="7303.33236409293749603" ymin="-53368.43759721786773298"/>
+  <LayerSet>
+   <Layer name="T_b06_buff800" provider="gdal" source="C:/Users/mkeig/Desktop/hotel-location/QGIS/T_b06_buff800.tif">T_b06_buff800_905db31a_1eef_4d04_b07b_9466b04c77b7</Layer>
+   <Layer name="Basic-copy" provider="wms" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=cji07mh6c37bm2rmun27z8hez&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://api.mapbox.com/styles/v1/snipe28235/cji07mh6c37bm2rmun27z8hez/wmts?access_token%3Dpk.eyJ1Ijoic25pcGUyODIzNSIsImEiOiJjajNkbjJsYmkwMDM3MnFtbzVwYjNpcDFjIn0._IColBB6u66HXkJoiLrkfw">Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354</Layer>
+  </LayerSet>
+  <LayerStyles>
+   <LayerStyle name="Basic-copy" provider="wms" layerid="Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=cji07mh6c37bm2rmun27z8hez&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://api.mapbox.com/styles/v1/snipe28235/cji07mh6c37bm2rmun27z8hez/wmts?access_token%3Dpk.eyJ1Ijoic25pcGUyODIzNSIsImEiOiJjajNkbjJsYmkwMDM3MnFtbzVwYjNpcDFjIn0._IColBB6u66HXkJoiLrkfw">
+    <qgis maxScale="0" minScale="1e+8" version="3.0.2-Girona" hasScaleBasedVisibilityFlag="0">
+     <pipe>
+      <rasterrenderer alphaBand="-1" type="singlebandcolordata" opacity="1" band="1">
+       <rasterTransparency/>
+       <minMaxOrigin>
+        <limits>None</limits>
+        <extent>WholeRaster</extent>
+        <statAccuracy>Estimated</statAccuracy>
+        <cumulativeCutLower>0.02</cumulativeCutLower>
+        <cumulativeCutUpper>0.98</cumulativeCutUpper>
+        <stdDevFactor>2</stdDevFactor>
+       </minMaxOrigin>
+      </rasterrenderer>
+      <brightnesscontrast brightness="0" contrast="0"/>
+      <huesaturation colorizeGreen="128" colorizeOn="0" colorizeStrength="100" colorizeRed="255" grayscaleMode="0" colorizeBlue="128" saturation="0"/>
+      <rasterresampler maxOversampling="2"/>
+     </pipe>
+     <blendMode>0</blendMode>
+    </qgis>
+   </LayerStyle>
+   <LayerStyle name="T_b06_buff800" provider="gdal" layerid="T_b06_buff800_905db31a_1eef_4d04_b07b_9466b04c77b7" source="C:/Users/mkeig/Desktop/hotel-location/QGIS/T_b06_buff800.tif">
+    <qgis maxScale="0" minScale="1e+8" version="3.0.2-Girona" hasScaleBasedVisibilityFlag="0">
+     <pipe>
+      <rasterrenderer alphaBand="-1" classificationMax="1.68063e-5" type="singlebandpseudocolor" classificationMin="0" opacity="1" band="1">
+       <rasterTransparency/>
+       <minMaxOrigin>
+        <limits>None</limits>
+        <extent>WholeRaster</extent>
+        <statAccuracy>Estimated</statAccuracy>
+        <cumulativeCutLower>0.02</cumulativeCutLower>
+        <cumulativeCutUpper>0.98</cumulativeCutUpper>
+        <stdDevFactor>2</stdDevFactor>
+       </minMaxOrigin>
+       <rastershader>
+        <colorrampshader colorRampType="INTERPOLATED" classificationMode="1" clip="0">
+         <colorramp type="gradient" name="[source]">
+          <prop v="255,245,240,255" k="color1"/>
+          <prop v="103,0,13,255" k="color2"/>
+          <prop v="0" k="discrete"/>
+          <prop v="gradient" k="rampType"/>
+          <prop v="0.13;254,224,210,255:0.26;252,187,161,255:0.39;252,146,114,255:0.52;251,106,74,255:0.65;239,59,44,255:0.78;203,24,29,255:0.9;165,15,21,255" k="stops"/>
+         </colorramp>
+         <item alpha="1" label="0" color="#fff5f0" value="0"/>
+         <item alpha="255" label="2.18e-6" color="#fee0d2" value="2.184819e-6"/>
+         <item alpha="255" label="4.37e-6" color="#fcbba1" value="4.369638e-6"/>
+         <item alpha="255" label="6.55e-6" color="#fc9272" value="6.554457e-6"/>
+         <item alpha="255" label="8.74e-6" color="#fb6a4a" value="8.739276e-6"/>
+         <item alpha="255" label="1.09e-5" color="#ef3b2c" value="1.0924095e-5"/>
+         <item alpha="255" label="1.31e-5" color="#cb181d" value="1.3108914e-5"/>
+         <item alpha="255" label="1.51e-5" color="#a50f15" value="1.512567e-5"/>
+         <item alpha="255" label="1.68e-5" color="#67000d" value="1.68063e-5"/>
+        </colorrampshader>
+       </rastershader>
+      </rasterrenderer>
+      <brightnesscontrast brightness="0" contrast="0"/>
+      <huesaturation colorizeGreen="128" colorizeOn="0" colorizeStrength="100" colorizeRed="255" grayscaleMode="0" colorizeBlue="128" saturation="0"/>
+      <rasterresampler maxOversampling="2"/>
+     </pipe>
+     <blendMode>0</blendMode>
+    </qgis>
+   </LayerStyle>
+  </LayerStyles>
+  <AtlasMap scalingMode="2" margin="0.10000000000000001" atlasDriven="0"/>
+ </LayoutItem>
+ <LayoutItem templateUuid="{ead3de76-7803-4c84-a45a-8fdd011a8845}" wrapChar="" size="10.267,20.7958,mm" opacity="1" symbolWidth="3" wmsLegendHeight="25" columnCount="1" background="true" symbolHeight="2" rasterBorderWidth="0" frameJoinStyle="miter" map_uuid="{75cf8b06-8e3d-4e8e-af45-e7fc101da073}" positionLock="false" titleAlignment="1" outlineWidthM="0.3,mm" zValue="4" wmsLegendWidth="50" rasterBorder="0" columnSpace="2" resizeToContents="0" id="" visibility="1" type="65642" rasterBorderColor="0,0,0,255" excludeFromExports="0" equalColumnWidth="0" referencePoint="0" frame="false" boxSpace="1" groupUuid="" lineSpacing="1" blendMode="0" splitLayer="0" uuid="{ead3de76-7803-4c84-a45a-8fdd011a8845}" title="凡例" fontColor="#000000" itemRotation="0" legendFilterByAtlas="0" position="77.6459,62.9962,mm" positionOnPage="77.6459,62.9962,mm">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="94" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <styles>
+   <style name="title" marginBottom="0.5">
+    <styleFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+   <style name="group" marginTop="3">
+    <styleFont description="MS UI Gothic,6,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+   <style name="subgroup" marginTop="3">
+    <styleFont description="MS UI Gothic,6,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+   <style name="symbol">
+    <styleFont description="MS UI Gothic,9,-1,5,50,0,0,0,0,0" style=""/>
+   </style>
+   <style name="symbolLabel" marginLeft="1">
+    <styleFont description="MS UI Gothic,4,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+   </style>
+  </styles>
+  <layer-tree-group>
+   <customproperties/>
+   <layer-tree-layer providerKey="gdal" id="T_all_buff800_481513f9_7c72_49e2_9ddf_d0b51f323525" name="T_all_buff800" expanded="1" source="./T_all_buff800.tif" checked="Qt::Checked">
+    <customproperties>
+     <property key="legend/title-style" value="hidden"/>
+    </customproperties>
+   </layer-tree-layer>
+   <layer-tree-layer providerKey="wms" id="Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354" name="Basic-copy" expanded="1" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=cji07mh6c37bm2rmun27z8hez&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://api.mapbox.com/styles/v1/snipe28235/cji07mh6c37bm2rmun27z8hez/wmts?access_token%3Dpk.eyJ1Ijoic25pcGUyODIzNSIsImEiOiJjajNkbjJsYmkwMDM3MnFtbzVwYjNpcDFjIn0._IColBB6u66HXkJoiLrkfw" checked="Qt::Checked">
+    <customproperties/>
+   </layer-tree-layer>
+   <custom-order enabled="0">
+    <item>Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354</item>
+    <item>T_all_buff800_481513f9_7c72_49e2_9ddf_d0b51f323525</item>
+   </custom-order>
+  </layer-tree-group>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="4.23545,5.0567,mm" pictureWidth="3.90454" frame="false" zValue="3" file="arrows/NorthArrow_10.svg" pictureHeight="5.0567" svgFillColor="255,255,255,255" positionLock="false" background="true" resizeMode="0" mapUuid="" type="65640" visibility="1" referencePoint="4" anchorPoint="0" svgBorderColor="0,0,0,255" northOffset="0" groupUuid="" templateUuid="{61410995-36fa-4aeb-994c-ce529a9d6ce1}" blendMode="0" itemRotation="0" position="18.8361,17.3971,mm" northMode="0" id="" excludeFromExports="0" frameJoinStyle="miter" uuid="{61410995-36fa-4aeb-994c-ce529a9d6ce1}" opacity="1" pictureRotation="0" positionOnPage="18.8361,17.3971,mm" svgBorderWidth="0.2">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="0" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutItem templateUuid="{878e55fc-b910-4a19-8131-c20ca32c558b}" size="24.1778,11.6,mm" opacity="1" outlineWidth="0.3" unitType="km" background="true" numUnitsPerSegment="2" lineCapStyle="square" mapUuid="{75cf8b06-8e3d-4e8e-af45-e7fc101da073}" frameJoinStyle="miter" segmentSizeMode="0" numSegments="4" positionLock="false" unitLabel="km" outlineWidthM="0.3,mm" zValue="2" boxContentSpace="0" maxBarWidth="150" id="" visibility="1" type="65646" labelBarSpace="1" numSegmentsLeft="0" excludeFromExports="0" referencePoint="0" alignment="0" frame="false" segmentMillimeters="5.01944" groupUuid="" height="1" numMapUnitsPerScaleBarUnit="1" blendMode="0" minBarWidth="50" uuid="{878e55fc-b910-4a19-8131-c20ca32c558b}" style="Line Ticks Up" lineJoinStyle="miter" itemRotation="0" position="15.4534,79.4652,mm" positionOnPage="15.4534,79.4652,mm">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="222" green="252" blue="253"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <scaleBarFont description="MS UI Gothic,5,-1,5,50,0,0,0,0,0,標準" style="Normal"/>
+  <fillColor red="0" alpha="255" green="0" blue="0"/>
+  <fillColor2 red="255" alpha="255" green="255" blue="255"/>
+  <strokeColor red="96" alpha="255" green="102" blue="108"/>
+  <textColor red="0" alpha="255" green="0" blue="0"/>
+ </LayoutItem>
+ <LayoutItem outlineWidthM="0.3,mm" size="72.4595,70.399,mm" followPreset="false" frame="false" zValue="1" positionLock="false" background="true" type="65639" visibility="1" referencePoint="0" groupUuid="" templateUuid="{75cf8b06-8e3d-4e8e-af45-e7fc101da073}" followPresetName="" keepLayerSet="true" blendMode="0" itemRotation="0" position="15.4534,13.393,mm" id="" excludeFromExports="0" mapRotation="0" frameJoinStyle="miter" uuid="{75cf8b06-8e3d-4e8e-af45-e7fc101da073}" opacity="1" positionOnPage="15.4534,13.393,mm" drawCanvasItems="false">
+  <FrameColor red="0" alpha="255" green="0" blue="0"/>
+  <BackgroundColor red="255" alpha="255" green="255" blue="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" name="name" value=""/>
+     <Option name="properties"/>
+     <Option type="QString" name="type" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties/>
+  </LayoutObject>
+  <Extent ymax="-25183.84609622772404691" xmin="-21684.48728010067497962" xmax="7184.19633350808999239" ymin="-53231.61927532628760673"/>
+  <LayerSet>
+   <Layer name="T_all_buff800" provider="gdal" source="C:/Users/mkeig/Desktop/hotel-location/QGIS/T_all_buff800.tif">T_all_buff800_481513f9_7c72_49e2_9ddf_d0b51f323525</Layer>
+   <Layer name="Basic-copy" provider="wms" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=cji07mh6c37bm2rmun27z8hez&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://api.mapbox.com/styles/v1/snipe28235/cji07mh6c37bm2rmun27z8hez/wmts?access_token%3Dpk.eyJ1Ijoic25pcGUyODIzNSIsImEiOiJjajNkbjJsYmkwMDM3MnFtbzVwYjNpcDFjIn0._IColBB6u66HXkJoiLrkfw">Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354</Layer>
+  </LayerSet>
+  <LayerStyles>
+   <LayerStyle name="Basic-copy" provider="wms" layerid="Basic_copy_5e6c5dbb_96a6_472d_a931_9c23418a8354" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/png&amp;layers=cji07mh6c37bm2rmun27z8hez&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://api.mapbox.com/styles/v1/snipe28235/cji07mh6c37bm2rmun27z8hez/wmts?access_token%3Dpk.eyJ1Ijoic25pcGUyODIzNSIsImEiOiJjajNkbjJsYmkwMDM3MnFtbzVwYjNpcDFjIn0._IColBB6u66HXkJoiLrkfw">
+    <qgis maxScale="0" minScale="1e+8" version="3.0.2-Girona" hasScaleBasedVisibilityFlag="0">
+     <pipe>
+      <rasterrenderer alphaBand="-1" type="singlebandcolordata" opacity="1" band="1">
+       <rasterTransparency/>
+       <minMaxOrigin>
+        <limits>None</limits>
+        <extent>WholeRaster</extent>
+        <statAccuracy>Estimated</statAccuracy>
+        <cumulativeCutLower>0.02</cumulativeCutLower>
+        <cumulativeCutUpper>0.98</cumulativeCutUpper>
+        <stdDevFactor>2</stdDevFactor>
+       </minMaxOrigin>
+      </rasterrenderer>
+      <brightnesscontrast brightness="0" contrast="0"/>
+      <huesaturation colorizeGreen="128" colorizeOn="0" colorizeStrength="100" colorizeRed="255" grayscaleMode="0" colorizeBlue="128" saturation="0"/>
+      <rasterresampler maxOversampling="2"/>
+     </pipe>
+     <blendMode>0</blendMode>
+    </qgis>
+   </LayerStyle>
+   <LayerStyle name="T_all_buff800" provider="gdal" layerid="T_all_buff800_481513f9_7c72_49e2_9ddf_d0b51f323525" source="C:/Users/mkeig/Desktop/hotel-location/QGIS/T_all_buff800.tif">
+    <qgis maxScale="0" minScale="1e+8" version="3.0.2-Girona" hasScaleBasedVisibilityFlag="0">
+     <pipe>
+      <rasterrenderer alphaBand="-1" classificationMax="3.5183e-5" type="singlebandpseudocolor" classificationMin="0" opacity="1" band="1">
+       <rasterTransparency/>
+       <minMaxOrigin>
+        <limits>None</limits>
+        <extent>WholeRaster</extent>
+        <statAccuracy>Estimated</statAccuracy>
+        <cumulativeCutLower>0.02</cumulativeCutLower>
+        <cumulativeCutUpper>0.98</cumulativeCutUpper>
+        <stdDevFactor>2</stdDevFactor>
+       </minMaxOrigin>
+       <rastershader>
+        <colorrampshader colorRampType="INTERPOLATED" classificationMode="1" clip="0">
+         <colorramp type="gradient" name="[source]">
+          <prop v="255,245,240,255" k="color1"/>
+          <prop v="103,0,13,255" k="color2"/>
+          <prop v="0" k="discrete"/>
+          <prop v="gradient" k="rampType"/>
+          <prop v="0.13;254,224,210,255:0.26;252,187,161,255:0.39;252,146,114,255:0.52;251,106,74,255:0.65;239,59,44,255:0.78;203,24,29,255:0.9;165,15,21,255" k="stops"/>
+         </colorramp>
+         <item alpha="0" label="0" color="#fff5f0" value="0"/>
+         <item alpha="255" label="4.57e-6" color="#fee0d2" value="4.57379e-6"/>
+         <item alpha="255" label="9.15e-6" color="#fcbba1" value="9.14758e-6"/>
+         <item alpha="255" label="1.37e-5" color="#fc9272" value="1.372137e-5"/>
+         <item alpha="255" label="1.83e-5" color="#fb6a4a" value="1.829516e-5"/>
+         <item alpha="255" label="2.29e-5" color="#ef3b2c" value="2.286895e-5"/>
+         <item alpha="255" label="2.74e-5" color="#cb181d" value="2.744274e-5"/>
+         <item alpha="255" label="3.17e-5" color="#a50f15" value="3.16647e-5"/>
+         <item alpha="255" label="3.52e-5" color="#67000d" value="3.5183e-5"/>
+        </colorrampshader>
+       </rastershader>
+      </rasterrenderer>
+      <brightnesscontrast brightness="0" contrast="0"/>
+      <huesaturation colorizeGreen="128" colorizeOn="0" colorizeStrength="100" colorizeRed="255" grayscaleMode="0" colorizeBlue="128" saturation="0"/>
+      <rasterresampler maxOversampling="2"/>
+     </pipe>
+     <blendMode>0</blendMode>
+    </qgis>
+   </LayerStyle>
+  </LayerStyles>
+  <AtlasMap scalingMode="2" margin="0.10000000000000001" atlasDriven="0"/>
+ </LayoutItem>
+ <customproperties>
+  <property key="atlasRasterFormat" value="png"/>
+ </customproperties>
+ <Atlas filterFeatures="0" coverageLayer="" filenamePattern="'output_'||@atlas_featurenumber" pageNameExpression="" sortFeatures="0" enabled="0" hideCoverage="0"/>
+</Layout>
